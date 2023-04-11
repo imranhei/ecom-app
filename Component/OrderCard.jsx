@@ -9,7 +9,11 @@ function OrderyCard(props) {
     
     return (
         <div className='body'>
+<<<<<<< HEAD
             <Link href={{pathname:'/HistoryDetails', query: {id: props.data.historyId},}} ><a>{`id_${props.data.historyId} ${props.data.time}`}</a></Link>
+=======
+            <Link href={{pathname:'/historyDetails', query: {id: props.data.historyId},}} ><a>{`id_${props.data.historyId} ${props.data.time}`}</a></Link>
+>>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
             <p onClick={() => handleQuantity(-10, hId)}>x</p>
             
             <style jsx>{`

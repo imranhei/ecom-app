@@ -27,10 +27,17 @@ const Home = ({objectData}) => {
   return (
     <>
       <Head>
+<<<<<<< HEAD
         <title>Hei&apos;s Shop | Home</title>
       </Head>
       <div className="body">
         <h1 className='welcome'>WELCOME TO HEI&apos;S SHOPPING ZONE</h1>
+=======
+        <title>Hei's Shop | Home</title>
+      </Head>
+      <div className="body">
+        <h1 className='welcome'>WELCOME TO HEI'S SHOPPING ZONE</h1>
+>>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
         <Cards onQuickView={handleQuickView} data={objectData}/>
         <QuickView open={isOpen} data={qData} onClose={() => setIsOpen(false)}/>
         

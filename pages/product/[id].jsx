@@ -1,7 +1,10 @@
 import { useContext } from 'react';
 import { DataContext } from '../../stores/DataContext';
 import Head from 'next/head';
+<<<<<<< HEAD
 import Image from 'next/image';
+=======
+>>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
 
 const Product = ({data}) => {
 
@@ -11,11 +14,19 @@ const Product = ({data}) => {
     return (
         <>
             <Head>
+<<<<<<< HEAD
                 <title>Hei&apos;s Shop | Product</title>
             </Head>
             <div className='body'>
                 <div className='top'>
                     <Image src={`/${data.image}`} alt="Product" width={500} height={500}/>
+=======
+                <title>Hei's Shop | Product</title>
+            </Head>
+            <div className='body'>
+                <div className='top'>
+                    <img src={`/${data.image}`}/>
+>>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
                     <div className='name-price'>
                         <p className='name'>{`${data.productName}`}</p>
                         <p className='price'>{`Price: ${data.price}/-`}</p>

@@ -11,11 +11,19 @@ function Cart() {
     return (
         <>
             <Head>
+<<<<<<< HEAD
                 <title>Hei&apos;s Shop | Cart</title>
             </Head>
             {items===0 ? 
             <div className="body">
                 <   h2 className="no-item">Opps... you didn&apos;t select any items.</h2>
+=======
+                <title>Hei's Shop | Cart</title>
+            </Head>
+            {items===0 ? 
+            <div className="body">
+                <   h2 className="no-item">Opps... you didn't select any items.</h2>
+>>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
                 <style jsx>{`
                     .body{
                         display: flex;
