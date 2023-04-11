@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { DataContext } from "../stores/DataContext";
 import Head from 'next/head';
 
-function historyDetails() {
+function HistoryDetails() {
     const {history} = useContext(DataContext)
     const router = useRouter();
     const x = router.asPath;
@@ -20,8 +20,9 @@ function historyDetails() {
     return (
         <>
             <Head>
-                <title>Hei's Shop | History</title>
+                <title>Hei&apos;s Shop | History</title>
             </Head>
+            {hisDetail ?
             <div className='body'>
                 <div className="content">
                     <div className="person">
@@ -86,9 +87,10 @@ function historyDetails() {
                         }
                     }
                 `}</style>
-            </div>
+            </div> : <></>
+            }
         </>
     );
 }
 
-export default historyDetails;
+export default HistoryDetails;

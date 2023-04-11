@@ -1,17 +1,6 @@
-<<<<<<< HEAD
-import data from '/data.json'
-
-export default async function getProductById(req, res) {
-  const { pid } = req.query;
-
-  const product = data.find(d => d.id === pid);
-
-  res.status(200).json(product);
-}
-=======
 import Product from '/data.json'
 
-export default async (req, res) => {
+export default Pid = async (req, res) => {
     const {pid} = req.query;
     let product;
     
@@ -23,4 +12,3 @@ export default async (req, res) => {
     })
     res.status(200).json(product)
 }
->>>>>>> f4b29b7850f32e524a5844ac364971d33589be56

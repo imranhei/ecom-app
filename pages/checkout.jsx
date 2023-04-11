@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 // eslint-disable-next-line react-hooks/exhaustive-deps
-=======
->>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
 import React, { useEffect, useState, useContext } from 'react';
 import { DataContext } from "../stores/DataContext";
 import Router from 'next/router'
@@ -32,11 +29,7 @@ const Checkout = (props) => {
             props.onClose();
             Router.push('/orders')
         }
-<<<<<<< HEAD
     }, [formValues])
-=======
-    }, [formErrors])
->>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
 
     if(!props.open) return null;
 

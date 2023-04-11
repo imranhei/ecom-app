@@ -11,11 +11,7 @@ function card(props) {
             </div>
             <hr/>
             <div className='text'>
-<<<<<<< HEAD
                 <Link href={{pathname:`/product`, query: {id: props.id.id}, }}><a>{`${props.id.productName}`}</a></Link>
-=======
-                <Link href={`/product/${props.id.id}`}><a>{`${props.id.productName}`}</a></Link>
->>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
                 <p>{`Price: ${props.id.price}/-`}</p>
                 {props.id.quantity === 0 ? <p id='out-stock'>Out-of-stock</p> : <p id='in-stock'>Available</p>}
             </div>

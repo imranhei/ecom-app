@@ -10,11 +10,7 @@ function Orders() {
     return (
         <>
             <Head>
-<<<<<<< HEAD
                 <title>Hei&apos;s Shop | Orders</title>
-=======
-                <title>Hei's Shop | Orders</title>
->>>>>>> f4b29b7850f32e524a5844ac364971d33589be56
             </Head>
             <div className='body'>
             <h1>My Orders</h1>
